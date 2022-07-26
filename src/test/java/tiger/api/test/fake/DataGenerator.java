@@ -27,6 +27,10 @@ public class DataGenerator {
 		return faker.name().firstName(); 
 	}
 	
+	/**
+	 * Get random Last name
+	 * @return
+	 */
 	public static String getLastName() {
 		Faker faker = new Faker(); 
 		return faker.name().lastName(); 
